@@ -26,3 +26,36 @@ DATABASE_URL="mysql://avnadmin:AVNS_sLpR8MMu7Pqkrwlh1zL@shihab-portfolio-shihab.
 
 # App port
 PORT=5000
+
+🔧 Setup & Installation
+Clone the repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/your-username/inventoryTask_backend.git
+cd inventoryTask_backend
+Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+Generate Prisma client:
+
+bash
+Copy
+Edit
+npx prisma generate
+Run the server in development mode:
+
+bash
+Copy
+Edit
+npm run dev
+Or to run in production:
+
+bash
+Copy
+Edit
+npm start
